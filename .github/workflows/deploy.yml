@@ -7,7 +7,7 @@ on: # Events that start the workflow
       - "templates/**" # Any file in the templates folder
       - ".github/workflows/deploy.yml" # This workflow file
   workflow_dispatch: # Allow running it manually from the Actions tab
-    inputs: # Options shown when running manually
+    inputs: # Options shown when running manually 
       instance_type: # Input name
         description: EC2 instance type # Label shown in the UI
         default: t2.micro # Pre-selected value
